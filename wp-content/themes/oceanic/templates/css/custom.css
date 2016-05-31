@@ -7,11 +7,11 @@
 	font-family: Stylo;
 	src: url(../fonts/Stylo/stylo_.ttf);
 }
-body, .widget-title {
+body {
 	font-family: InGlobal;
 	font-size: 14px;
 }
-h1, h2, h3, h4 {
+.slogan {
 	font-family: Stylo;
 }
 #primary {
