@@ -477,10 +477,10 @@ a:active {
 .main-navigation {
 	clear: both;
 	display: block;
-	border-top: 1px solid #b72672;
-	border-bottom: 1px solid #b72672;
+	border-top: 1px solid #00b3ec;
+	border-bottom: 1px solid #00b3ec;
 	height: 58px;
-   	background-color: #952761;
+   	background-color: #00adef;
 }
 .main-menu-container {
 	max-width: 1140px;
@@ -755,9 +755,6 @@ a:active {
 --------------------------------------------------------------*/
 .clearboth {
 	clear: both;
-}
-.border-bottom {
-	border-bottom: 1px solid #e0e0e0;
 }
 .border-top {
     border-bottom: 1px solid #e0e0e0;
@@ -2176,7 +2173,7 @@ a,
 .site-footer-bottom-bar a,
 .header-menu-button,
 .color-text {
-    color: #952761;
+    color: #0397c2;
 }
 
 #comments .form-submit #submit,
@@ -2203,7 +2200,7 @@ input[type="submit"],
 .woocommerce-page #review_form #respond .form-submit input
 .wpcf7-submit {
     background: inherit;
-    background-color: #524178;
+    background-color: #6ba314;
 }
 .main-navigation a:hover,
 .main-navigation li.current-menu-item > a,
@@ -2214,20 +2211,20 @@ input[type="submit"],
 .main-navigation li.current_page_ancestor > a,
 .main-navigation button {
 	background: inherit;
-	background-color: #b0276f;
+	background-color: #0397c2;
 }
 
 .header-cart-checkout.cart-has-items .fa-shopping-cart {
-    background-color: #b0276f !important;
+    background-color: #0397c2 !important;
 }
 
 .woocommerce ul.products li.product .onsale:after,
 .woocommerce-page ul.products li.product .onsale:after {
-    border-right: 4px solid #b0276f;
+    border-right: 4px solid #0397c2;
 }
 
 .woocommerce .woocommerce-message {
-	border-top-color: #b0276f;
+	border-top-color: #0397c2;
 }
 
 a:hover,
@@ -2250,7 +2247,7 @@ a:hover,
 .woocommerce div.product .woocommerce-tabs ul.tabs li.active,
 .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active,
 .woocommerce-page div.product .woocommerce-tabs ul.tabs li.active {
-    color: #b0276f;
+    color: #00adef;
 }
 
 .main-navigation button:hover,
@@ -2280,7 +2277,7 @@ input[type="submit"]:hover,
 .woocommerce-page #review_form #respond .form-submit input:hover,
 wpcf7-submit:hover {
     background: inherit;
-    background-color: #b0276f;
+    background-color: #82b521;
 	color: #fff;
 }
 

@@ -118,7 +118,7 @@ function oceanic_widgets_init() {
 		'name'          => __( 'Contact area', 'oceanic' ),
 		'id'            => 'contact-area',
 		'description'   => '',
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'before_widget' => '<aside id="%1$s" class="contact-area widget %2$s">',
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h1 class="widget-title">',
 		'after_title'   => '</h1>'
@@ -456,3 +456,15 @@ function bbloomer_remove_billing_postcode_checkout( $fields ) {
 	unset($fields['billing']['billing_postcode']);
 	return $fields;
 }
+//NUMBER OF PRODICTS TO DISPLAY ON SHOP PAGE
+add_filter('loop_shop_per_page', create_function('$cols', 'return 20;'));
+
+/**
+ * Changes the redirect URL for the Return To Shop button in the cart.
+ *
+ * @return string
+ */
+function wc_empty_cart_redirect_url() {
+	return get_site_url();
+}
+add_filter( 'woocommerce_return_to_shop_redirect', 'wc_empty_cart_redirect_url' );
