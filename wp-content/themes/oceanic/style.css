@@ -477,9 +477,10 @@ a:active {
 .main-navigation {
 	clear: both;
 	display: block;
-	border-top: 1px solid #e0e0e0;
+	border-top: 1px solid #b72672;
+	border-bottom: 1px solid #b72672;
 	height: 58px;
-   	background-color: #F5F5F5;
+   	background-color: #952761;
 }
 .main-menu-container {
 	max-width: 1140px;
@@ -515,7 +516,7 @@ a:active {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
-	color: #626262;
+	color: #fff;
 	padding: 18px 22px 18px;
 	font-size: 14px;
 	font-weight: 300;
@@ -2175,7 +2176,7 @@ a,
 .site-footer-bottom-bar a,
 .header-menu-button,
 .color-text {
-    color: #01B6AD;
+    color: #952761;
 }
 
 #comments .form-submit #submit,
@@ -2199,7 +2200,11 @@ input[type="submit"],
 .woocommerce-page #content input.button,
 .woocommerce-page input.button,
 .woocommerce #review_form #respond .form-submit input,
-.woocommerce-page #review_form #respond .form-submit input,
+.woocommerce-page #review_form #respond .form-submit input
+.wpcf7-submit {
+    background: inherit;
+    background-color: #524178;
+}
 .main-navigation a:hover,
 .main-navigation li.current-menu-item > a,
 .main-navigation li.current_page_item > a,
@@ -2207,23 +2212,22 @@ input[type="submit"],
 .main-navigation li.current_page_parent > a,
 .main-navigation li.current-menu-ancestor > a,
 .main-navigation li.current_page_ancestor > a,
-.main-navigation button,
-.wpcf7-submit {
-    background: inherit;
-    background-color: #01B6AD;
+.main-navigation button {
+	background: inherit;
+	background-color: #b0276f;
 }
 
 .header-cart-checkout.cart-has-items .fa-shopping-cart {
-    background-color: #01B6AD !important;
+    background-color: #b0276f !important;
 }
 
 .woocommerce ul.products li.product .onsale:after,
 .woocommerce-page ul.products li.product .onsale:after {
-    border-right: 4px solid #01B6AD;
+    border-right: 4px solid #b0276f;
 }
 
 .woocommerce .woocommerce-message {
-	border-top-color: #01B6AD;
+	border-top-color: #b0276f;
 }
 
 a:hover,
@@ -2246,7 +2250,7 @@ a:hover,
 .woocommerce div.product .woocommerce-tabs ul.tabs li.active,
 .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active,
 .woocommerce-page div.product .woocommerce-tabs ul.tabs li.active {
-    color: #019289;
+    color: #b0276f;
 }
 
 .main-navigation button:hover,
@@ -2276,7 +2280,8 @@ input[type="submit"]:hover,
 .woocommerce-page #review_form #respond .form-submit input:hover,
 wpcf7-submit:hover {
     background: inherit;
-    background-color: #019289;
+    background-color: #b0276f;
+	color: #fff;
 }
 
 .woocommerce ul.products li.product .price {

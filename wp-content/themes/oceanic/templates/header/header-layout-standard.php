@@ -18,25 +18,16 @@
 
 	</div>
     <div class="site-header-right">
-        
         <?php
         if ( oceanic_is_woocommerce_activated() && get_theme_mod( 'oceanic-header-shop-links', true ) ) { ?>
-        
-            <?php if ( is_user_logged_in() ) { ?>
-				<div class="quick-menu-holder">
-					<?php dynamic_sidebar('quick-menu'); ?>
-					<div class="items"><?php echo sprintf(_n('%d', '%d', $woocommerce->cart->cart_contents_count, 'oceanic'), $woocommerce->cart->cart_contents_count);?> - <?php echo $woocommerce->cart->get_cart_total(); ?></div>
-				</div>
-			<?php } else { ?>
-                <div class="site-header-right-link"><a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" title="<?php _e('Login','woocommerce'); ?>"><?php _e('Login','woocommerce')?>/<?_e('Register','woocommerce'); ?></a></div>
-            <?php } ?>
 
-        <?php
-        } else { ?>
-            <div class="site-top-bar-left-text"><?php echo wp_kses_post( get_theme_mod( 'oceanic-header-info-text', '<em>CALL US:</em> 555-OCEANIC' ) ) ?></div>
-        <?php
-        } ?>
-        
+            <?php if ( !is_user_logged_in() ) { ?>
+             <!--   <div class="site-header-right-link"><a href="<?php /*echo get_permalink( get_option('woocommerce_myaccount_page_id') ); */?>" title="<?php /*_e('Login','woocommerce'); */?>"><?php /*_e('Login','woocommerce')*/?>/<?/*_e('Register','woocommerce'); */?></a></div>--><?php } ?>
+			<div class="quick-menu-holder">
+				<?php dynamic_sidebar('quick-menu'); ?>
+				<div class="items"><?php echo sprintf(_n('%d', '%d', $woocommerce->cart->cart_contents_count, 'oceanic'), $woocommerce->cart->cart_contents_count);?> - <?php echo $woocommerce->cart->get_cart_total(); ?></div>
+			</div>
+        <?php }  ?>
     </div>
     <div class="clearboth"></div>
     

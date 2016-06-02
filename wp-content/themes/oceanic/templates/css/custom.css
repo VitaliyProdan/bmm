@@ -9,7 +9,7 @@
 }
 body {
 	font-family: InGlobal;
-	font-size: 14px;
+	font-size: 16px;
 }
 .slogan {
 	font-family: Stylo;
@@ -63,7 +63,8 @@ body {
 }
 
 .woocommerce-product-search input[type="submit"] {
-	padding: 8px 10px;
+	padding: 11px 15px;
+	background-color: #b0276f;
 }
 .widget-area .widget .search-field {
 	width: 72.5%;
@@ -76,7 +77,7 @@ body {
 	background-color: #dedede;
 }
 .woocommerce .widget_price_filter .ui-slider .ui-slider-range {
-	background-color: #01B6AD;
+	background-color: #524178;
 }
 .price_label {
 	font-weight: bold;
@@ -110,7 +111,7 @@ body {
 	min-height: 91px;
 	padding-top: 35px;
 	float: left;
-	width: 645px;
+	width: 620px;
 }
 
 .site-header .site-header-left {
@@ -118,21 +119,25 @@ body {
 	text-align: right;
 }
 .site-header .site-header-right {
-	width: 180px;
+	width: 205px;
 }
 .oceanic-header-layout-standard .site-header-right {
-	padding-top: 75px!important;
+	padding-top: 58px!important;
 }
 .site-header .quick-menu-holder ul {
 	float: right;
 }
 .site-header .quick-menu-holder ul li {
 	display: inline-block;
-	display: inline-block;
 	vertical-align: top;
 	margin: 0;
 	padding: 0px 5px 1px 5px;
 	line-height: 18px;
+	font-size: 14px;
+}
+.site-header .quick-menu-holder ul li a,
+li.lang-item a {
+	color: #524178;
 }
 .site-header .quick-menu-holder ul li:first-child {
 	box-shadow: 1px 0 0 rgba(0, 0, 0, 0.08);
@@ -152,6 +157,7 @@ body {
 
 .site-header .quick-menu-holder .items {
 	text-align: right;
+	font-size: 14px;
 }
 
 .page-template-template-full-width #primary {
@@ -222,4 +228,31 @@ body {
 }
 .tel {
 	font-size: 14px;
+}
+.woocommerce ul.products li.product a:hover img,
+.woocommerce-page ul.products li.product a:hover img {
+	box-shadow: 0 0 0 2px rgb(28, 28, 28), 0 2px 18px rgba(0, 0, 0, 0.7);
+}
+.woocommerce-breadcrumb {
+	margin-bottom: 20px;
+}
+
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button {
+	color: #fff;
+}
+
+.woocommerce .woocommerce-result-count,
+.woocommerce-page .woocommerce-result-count {
+	padding: 10px 0 16px;
+}
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button {
+	background-color: #b0276f;
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
 }
