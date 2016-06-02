@@ -39,7 +39,6 @@ if (getenv('OPENSHIFT_APP_NAME') != "") {
 	define('DB_HOST', 'localhost');
 }
 
-define( 'MULTISITE', true );
 /**#@+
  * Уникальные ключи и соли для аутентификации.
  *
