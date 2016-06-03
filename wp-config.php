@@ -17,7 +17,7 @@
  *
  * @package WordPress
  */
-
+ini_set('apc.cache_by_default', false);
 if (getenv('OPENSHIFT_APP_NAME') != "") {
 	/** The name of the database for WordPress */
 	define('DB_NAME', getenv('OPENSHIFT_APP_NAME'));
