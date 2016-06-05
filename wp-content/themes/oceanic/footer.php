@@ -26,7 +26,7 @@
 			
 			<div class="site-footer-bottom-bar-left">
                 
-                <?php printf( __( 'Buy Me Mama &copy; %s Created by %s', 'oceanic' ), date("Y"), 'MaxILineSoft' ); ?>
+                <?php printf( __( 'Buy Me Mama &copy; %s Created by %s', 'oceanic' ), date("Y"), 'CrazyWebPandasSoft' ); ?>
                 
 			</div>
 	        

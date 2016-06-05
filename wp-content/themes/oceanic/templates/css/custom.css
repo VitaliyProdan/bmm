@@ -11,6 +11,15 @@
 	font-family: FolioMix;
 	src: url(../fonts/FoliaMix/Folia_Mix_Regular.ttf);
 }
+.slogan {
+	font-family: FolioMix;
+	color: #0397c2;
+}
+.brand-wrapper {
+	text-align: center;
+	margin-bottom: 5px;
+	font-size: 2em;
+}
 .brand {
 	font-family: FolioMix;
 }
@@ -18,7 +27,7 @@
 	color: #d12812
 }
 .brand .color-b {
-	color: #2e5ee8
+	color: #0397c2
 }
 .brand .color-c {
 	color: #b0276f
@@ -42,7 +51,7 @@ body {
 	padding-left: 2%;
 }
 .page-template-default .content-area {
-	box-shadow: 1px 0 0 #e0e0e0 inset;
+/*	box-shadow: 1px 0 0 #e0e0e0 inset;*/
 }
 .page-template-default .widget-area {
 	box-shadow: none;
@@ -62,7 +71,8 @@ body {
 }
 .woocommerce .woocommerce-breadcrumb,
 .woocommerce-page .woocommerce-breadcrumb {
-	padding-left: 2%;
+	padding-left: 0;
+	margin-top: 25px;
 }
 
 .coupon {
@@ -98,7 +108,9 @@ body {
 .price_label {
 	font-weight: bold;
 }
-
+.site-header {
+	margin-bottom: 0;
+}
 .site-header .widget_polylang {
 	text-align: right;
 	padding-top: 5px;
@@ -125,7 +137,7 @@ body {
 
 .site-header .site-header-middle {
 	min-height: 91px;
-	padding-top: 35px;
+	padding-top: 0;
 	float: left;
 	width: 620px;
 }
@@ -135,15 +147,16 @@ body {
 	text-align: right;
 }
 .site-header .site-header-right {
-	width: 225px;
+	width: 228px;
 }
 .oceanic-header-layout-standard .site-header-right {
-	padding-top: 58px!important;
+	padding-top: 74px!important;
 }
 .site-header .quick-menu-holder {
 	background: #fff;
 	padding: 10px;
 	border-radius: 5px;
+	border: 1px solid #ccc;
 }
 .site-header .quick-menu-holder ul {
 	float: right;
@@ -242,6 +255,7 @@ body {
 .slogan {
 	text-align: center;
 	letter-spacing: 3px;
+	height: 20px;
 }
 .orange {
 	color: orange;
@@ -255,7 +269,7 @@ body {
 	box-shadow: 0 0 0 2px rgb(28, 28, 28), 0 2px 18px rgba(0, 0, 0, 0.7);
 }
 .woocommerce-breadcrumb {
-	margin-bottom: 20px;
+	margin: 20px 0 20px;
 }
 
 .woocommerce #respond input#submit,
@@ -337,6 +351,33 @@ body {
 }
 
 #masthead {
-	background: url("../../images/clouds2.jpg") no-repeat;
+	background: url("../../images/clouds2.jpg") ;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
+}
+body{
+	background: url("../../images/full_bg.jpg") no-repeat center center fixed;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.site-content {
+	margin-top: 0;
+	background: #fff;
+	padding-top: 10px;
+}
+.site-container .widget {
+	margin: 0 0 0.9em;
+}
+#masthead .site-container {
+	padding: 0;
+}
+#content {
+	padding-top: 20px;
+}
+.product-categories .children {
+	padding-left: 10px;
 }
