@@ -483,9 +483,9 @@ a:active {
    	background-color: #00adef;
 }
 .main-menu-container {
-	max-width: 1140px;
+	max-width: 1095px;
 	margin: 0 auto;
-	padding: 0 22px;
+	padding: 0;
 	position: relative;
 }
 
@@ -781,7 +781,6 @@ ul.no-bullets {
 .widget-area {
 	width: 25%;
 	float: left;
-	padding: 15px 0 0 2%;
 }
 .home .widget-area {
     padding-top: 22px !important;
@@ -831,7 +830,7 @@ ul.no-bullets {
 }
 
 .page-template-default .content-area {
-    box-shadow: -1px 0 0 #e0e0e0 inset;
+   /* box-shadow: -1px 0 0 #e0e0e0 inset;*/
 }
 
 .page-template-template-left-sidebar-php .content-area {
@@ -856,7 +855,7 @@ ul.no-bullets {
 8.3 Oceanic Theme Styling
 --------------------------------------------------------------*/
 .site-container {
-	max-width: 1140px;
+	max-width: 1095px;
 	min-width: 260px;
 	margin: 0 auto;
 	padding: 0 22px;

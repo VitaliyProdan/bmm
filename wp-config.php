@@ -17,7 +17,6 @@
  *
  * @package WordPress
  */
-
 if (getenv('OPENSHIFT_APP_NAME') != "") {
 	/** The name of the database for WordPress */
 	define('DB_NAME', getenv('OPENSHIFT_APP_NAME'));
