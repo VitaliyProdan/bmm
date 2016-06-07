@@ -269,7 +269,7 @@ body {
 	box-shadow: 0 0 0 2px rgb(28, 28, 28), 0 2px 18px rgba(0, 0, 0, 0.7);
 }
 .woocommerce-breadcrumb {
-	margin: 20px 0 20px;
+	margin: 20px 0 40px;
 }
 
 .woocommerce #respond input#submit,
@@ -357,13 +357,7 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 }
-body{
-	background: url("../../images/full_bg.jpg") no-repeat center center fixed;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
+
 .site-content {
 	margin-top: 0;
 	background: #fff;
@@ -375,9 +369,45 @@ body{
 #masthead .site-container {
 	padding: 0;
 }
-#content {
-	padding-top: 20px;
-}
+
 .product-categories .children {
 	padding-left: 10px;
+}
+
+.xo10-sexy-accordion-list-holder .dashicons,
+.xo10-sexy-accordion-list-holder .dashicons-before::before {
+	padding-top: 10px!important;
+}
+.xo10-sexy-accordion-list-holder > ul > li > ul > li > a {
+	padding-left: 20px!important;
+}
+.xo10-sexy-accordion-list-holder li a {
+	padding: 5px 0!important;
+}
+.xo10-sexy-accordion-list-holder > ul > li > a {
+
+}
+.woocommerce-product-categories .xo10-sexy-accordion-list-holder > ul > li,
+.woocommerce-product-categories .xo10-sexy-accordion-list-holder > ul > li > a,
+.woocommerce-product-categories .xo10-sexy-accordion-list-holder ul > li li a,
+.woocommerce-product-categories .xo10-sexy-accordion-list-holder > ul > li > ul > li {
+	background: none!important;
+	color: #0397c2!important;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.woocommerce-product-categories .xo10-sexy-accordion-list-holder > ul > li > ul > li > a,
+.woocommerce-product-categories .xo10-sexy-accordion-list-holder > ul > li > ul > li > .accordion-btn-wrap,
+.woocommerce-product-categories .xo10-sexy-accordion-list-holder > ul > li:not(:last-child) > a,
+.woocommerce-product-categories .xo10-sexy-accordion-list-holder > ul > li:not(:last-child) > .accordion-btn-wrap {
+	border-bottom: none!important;
+}
+
+.woocommerce-breadcrumb a,
+.woocommerce-product-categories .xo10-sexy-accordion-list-holder .accordion-btn{
+	color: #0397c2!important;
+}
+.woocommerce .woocommerce-breadcrumb {
+	font-size: 100%!important;
 }

@@ -41,5 +41,5 @@ global $woocommerce;
 
 <?php endif; ?>
 
-<div id="content" class="site-content site-container<?php echo ( ! is_active_sidebar( 'sidebar-1' ) ) ? ' content-no-sidebar' : ' content-has-sidebar'; ?>">
+<div class="site-content site-container<?php echo ( ! is_active_sidebar( 'sidebar-1' ) ) ? ' content-no-sidebar' : ' content-has-sidebar'; ?>">
 <?php woocommerce_breadcrumb(); ?>

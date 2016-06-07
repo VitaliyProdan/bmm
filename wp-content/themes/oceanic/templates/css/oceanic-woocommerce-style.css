@@ -51,14 +51,6 @@
 .woocommerce-page .entry-header.site-container {
     display: none;
 }
-.woocommerce .woocommerce-breadcrumb,
-.woocommerce-page .woocommerce-breadcrumb {
-    line-height: 15px;
-    font-size: 11px;
-    text-transform: uppercase;
-    margin: 0 auto 12px;
-    color: #777;
-}
 
 /* -------- Products Styling -------- */
 
